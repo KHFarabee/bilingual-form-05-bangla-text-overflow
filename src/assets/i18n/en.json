@@ -1,0 +1,19 @@
+{
+  "form": {
+    "title": "Registration Form",
+    "full_name": {
+      "label": "Full Name",
+      "placeholder": "Enter your full name"
+    },
+    "relation": {
+      "label": "Relation",
+      "placeholder": "Select relation",
+      "options": {
+        "self": "Self",
+        "father": "Father",
+        "spouse": "Spouse"
+      }
+    },
+    "view": "View Details"
+  }
+}
