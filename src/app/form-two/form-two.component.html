@@ -1,0 +1,83 @@
+<div class="p-6 max-w-lg mx-auto space-y-4">
+  <div class="text-right space-x-2">
+    <button nz-button (click)="switchLang('en')">English</button>
+    <button nz-button (click)="switchLang('bn')">বাংলা</button>
+  </div>
+
+  <h2 class="text-xl font-bold border-b pb-2">
+    {{ "form.title" | translate }}
+  </h2>
+
+  <form class="space-y-4">
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.employee_en.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.employee_en.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.mobile_number.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.mobile_number.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.father_name.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.father_name.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.mother_name.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.mother_name.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.email.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.email.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.spouse_name.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.spouse_name.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+    <div>
+      <label class="block font-bold text-sm text-gray-700 mb-1 truncate">
+        {{ "form.nid_no.label" | translate }}
+      </label>
+      <input
+        nz-input
+        [placeholder]="'form.nid_no.placeholder' | translate"
+        class="w-full"
+      />
+    </div>
+  </form>
+</div>

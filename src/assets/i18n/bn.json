@@ -14,6 +14,386 @@
         "spouse": "স্বামী / স্ত্রী"
       }
     },
+    "employee": {
+      "label": "নাম",
+      "placeholder": "নাম লিখুন",
+      "required_error_message": "নাম প্রয়োজন"
+    },
+    "employee_en": {
+      "label": "নাম (ইংরেজি)",
+      "placeholder": "ইংরেজিতে নাম লিখুন",
+      "required_error_message": "নাম প্রয়োজন"
+    },
+    "employee_bn": {
+      "label": "নাম (বাংলা)",
+      "placeholder": "বাংলায় নাম লিখুন",
+      "required_error_message": "নাম প্রয়োজন"
+    },
+    "mobile_number": {
+      "label": "মোবাইল নাম্বার",
+      "placeholder": "মোবাইল নাম্বার লিখুন",
+      "required_error_message": "মোবাইল নাম্বার প্রয়োজন"
+    },
+    "email": {
+      "label": "ইমেইল",
+      "placeholder": "ইমেইল লিখুন",
+      "required_error_message": "ইমেইল প্রয়োজন"
+    },
+    "father_name": {
+      "label": "পিতার নাম",
+      "placeholder": "পিতার নাম লিখুন",
+      "required_error_message": "পিতার নাম প্রয়োজন"
+    },
+    "mother_name": {
+      "label": "মাতার নাম",
+      "placeholder": "মাতার নাম লিখুন",
+      "required_error_message": "মাতার নাম প্রয়োজন"
+    },
+    "spouse_name": {
+      "label": "স্বামী/স্ত্রীর নাম",
+      "placeholder": "স্বামী/স্ত্রীর নাম লিখুন",
+      "required_error_message": "স্বামী/স্ত্রীর নাম প্রয়োজন"
+    },
+    "birth_date": {
+      "label": "জন্ম তারিখ",
+      "placeholder": "জন্ম তারিখ নির্বাচন করুন",
+      "required_error_message": "জন্ম তারিখ প্রয়োজন"
+    },
+    "joining_date": {
+      "label": "যোগদানের তারিখ",
+      "placeholder": "যোগদানের তারিখ নির্বাচন করুন",
+      "required_error_message": "যোগদানের তারিখ প্রয়োজন"
+    },
+    "closing_date": {
+      "label": "অবসরের তারিখ",
+      "placeholder": "অবসরের তারিখ নির্বাচন করুন",
+      "required_error_message": "অবসরের তারিখ প্রয়োজন"
+    },
+    "nid_no": {
+      "label": "জাতীয় পরিচয়পত্রের নাম্বার",
+      "placeholder": "জাতীয় পরিচয়পত্রের নাম্বার লিখুন",
+      "required_error_message": "জাতীয় পরিচয়পত্রের নাম্বার প্রয়োজন"
+    },
+    "religion": {
+      "label": "ধর্ম",
+      "placeholder": "ধর্ম নির্বাচন করুন",
+      "required_error_message": "ধর্ম নির্বাচন প্রয়োজন"
+    },
+    "gender": {
+      "label": "লিঙ্গ",
+      "placeholder": "লিঙ্গ নির্বাচন করুন",
+      "required_error_message": "লিঙ্গ নির্বাচন প্রয়োজন"
+    },
+    "blood_group": {
+      "label": "রক্তের গ্রুপ",
+      "placeholder": "রক্তের গ্রুপ নির্বাচন করুন",
+      "required_error_message": "রক্তের গ্রুপ নির্বাচন প্রয়োজন"
+    },
+    "present_address": {
+      "label": "বর্তমান ঠিকানা",
+      "placeholder": "বর্তমান ঠিকানা লিখুন",
+      "required_error_message": "বর্তমান ঠিকানা প্রয়োজন"
+    },
+    "permanent_address": {
+      "label": "স্থায়ী ঠিকানা",
+      "placeholder": "স্থায়ী ঠিকানা লিখুন",
+      "required_error_message": "স্থায়ী ঠিকানা প্রয়োজন"
+    },
+    "status": {
+      "label": "অবস্থা",
+      "placeholder": "অবস্থা নির্বাচন করুন",
+      "required_error_message": "অবস্থা নির্বাচন প্রয়োজন"
+    },
+    "payment_type": {
+      "label": "পেমেন্টের ধরণ",
+      "placeholder": "পেমেন্টের ধরণ নির্বাচন করুন",
+      "required_error_message": "পেমেন্টের ধরণ নির্বাচন প্রয়োজন"
+    },
+    "bank": {
+      "label": "ব্যাংক",
+      "placeholder": "ব্যাংক নির্বাচন করুন",
+      "required_error_message": "ব্যাংক প্রয়োজন"
+    },
+    "bank_en": {
+      "label": "ব্যাংক (ইংরজি)",
+      "placeholder": "ব্যাংক নির্বাচন করুন",
+      "required_error_message": "ব্যাংক প্রয়োজন"
+    },
+    "bank_bn": {
+      "label": "ব্যাংক (বাংলা)",
+      "placeholder": "ব্যাংক নির্বাচন করুন",
+      "required_error_message": "ব্যাংক প্রয়োজন"
+    },
+    "bank_branch": {
+      "label": "ব্যাংক শাখা",
+      "placeholder": "ব্যাংক শাখা নির্বাচন করুন",
+      "required_error_message": "ব্যাংক শাখা প্রয়োজন"
+    },
+    "bank_branch_en": {
+      "label": "ব্যাংক শাখা (ইংরেজি)",
+      "placeholder": "ব্যাংক শাখা নির্বাচন করুন",
+      "required_error_message": "ব্যাংক শাখা প্রয়োজন"
+    },
+    "bank_branch_bn": {
+      "label": "ব্যাংক শাখা (বাংলা)",
+      "placeholder": "ব্যাংক শাখা নির্বাচন করুন",
+      "required_error_message": "ব্যাংক শাখা প্রয়োজন"
+    },
+    "account_title": {
+      "label": "একাউন্ট টাইটেল",
+      "placeholder": "একাউন্ট টাইটেল লিখুন",
+      "required_error_message": "একাউন্ট টাইটেল প্রয়োজন"
+    },
+    "account_no": {
+      "label": "একাউন্ট নাম্বার",
+      "placeholder": "একাউন্ট নাম্বার লিখুন",
+      "required_error_message": "একাউন্ট নাম্বার প্রয়োজন"
+    },
+    "category": {
+      "label": "ক্যাটাগরি",
+      "placeholder": "ক্যাটাগরি নির্বাচন করুন",
+      "required_error_message": "ক্যাটাগরি প্রয়োজন"
+    },
+    "category_en": {
+      "label": "ক্যাটাগরি (ইংরজি)",
+      "placeholder": "ক্যাটাগরি নির্বাচন করুন",
+      "required_error_message": "ক্যাটাগরি প্রয়োজন"
+    },
+    "category_bn": {
+      "label": "ক্যাটাগরি (বাংলা)",
+      "placeholder": "ক্যাটাগরি নির্বাচন করুন",
+      "required_error_message": "ক্যাটাগরি প্রয়োজন"
+    },
+    "designation": {
+      "label": "পদবী",
+      "placeholder": "পদবী নির্বাচন করুন",
+      "required_error_message": "পদবী প্রয়োজন"
+    },
+    "designation_en": {
+      "label": "পদবী (ইংরজি)",
+      "placeholder": "পদবী নির্বাচন করুন",
+      "required_error_message": "পদবী প্রয়োজন"
+    },
+    "designation_bn": {
+      "label": "পদবী (বাংলা)",
+      "placeholder": "পদবী নির্বাচন করুন",
+      "required_error_message": "পদবী প্রয়োজন"
+    },
+    "department": {
+      "label": "বিভাগ",
+      "placeholder": "বিভাগ নির্বাচন করুন",
+      "required_error_message": "বিভাগ প্রয়োজন"
+    },
+    "department_en": {
+      "label": "বিভাগ (ইংরজি)",
+      "placeholder": "বিভাগ নির্বাচন করুন",
+      "required_error_message": "বিভাগ প্রয়োজন"
+    },
+    "department_bn": {
+      "label": "বিভাগ (বাংলা)",
+      "placeholder": "বিভাগ নির্বাচন করুন",
+      "required_error_message": "বিভাগ প্রয়োজন"
+    },
+    "section": {
+      "label": "সেকশন",
+      "placeholder": "সেকশন নির্বাচন করুন",
+      "required_error_message": "সেকশন প্রয়োজন"
+    },
+    "section_en": {
+      "label": "সেকশন (ইংরজি)",
+      "placeholder": "সেকশন নির্বাচন করুন",
+      "required_error_message": "সেকশন প্রয়োজন"
+    },
+    "section_bn": {
+      "label": "সেকশন (বাংলা)",
+      "placeholder": "সেকশন নির্বাচন করুন",
+      "required_error_message": "সেকশন প্রয়োজন"
+    },
+    "grade": {
+      "label": "গ্রেড",
+      "placeholder": "গ্রেড নির্বাচন করুন",
+      "required_error_message": "গ্রেড প্রয়োজন"
+    },
+    "grade_en": {
+      "label": "গ্রেড (ইংরজি)",
+      "placeholder": "গ্রেড নির্বাচন করুন",
+      "required_error_message": "গ্রেড প্রয়োজন"
+    },
+    "grade_bn": {
+      "label": "গ্রেড (বাংলা)",
+      "placeholder": "গ্রেড নির্বাচন করুন",
+      "required_error_message": "গ্রেড প্রয়োজন"
+    },
+    "payscale_year": {
+      "label": "বেতনস্কেল বর্ষ",
+      "placeholder": "বেতনস্কেল বর্ষ নির্বাচন করুন",
+      "required_error_message": "বেতনস্কেল বর্ষ প্রয়োজন"
+    },
+    "payscale_year_en": {
+      "label": "বেতনস্কেল বর্ষ (ইংরজি)",
+      "placeholder": "বেতনস্কেল বর্ষ নির্বাচন করুন",
+      "required_error_message": "বেতনস্কেল বর্ষ প্রয়োজন"
+    },
+    "payscale_year_bn": {
+      "label": "বেতনস্কেল বর্ষ (বাংলা)",
+      "placeholder": "বেতনস্কেল বর্ষ নির্বাচন করুন",
+      "required_error_message": "বেতনস্কেল বর্ষ প্রয়োজন"
+    },
+    "payscale_range": {
+      "label": "বেতনস্কেল পরিসীমা",
+      "placeholder": "বেতনস্কেল পরিসীমা নির্বাচন করুন",
+      "required_error_message": "বেতনস্কেল পরিসীমা প্রয়োজন"
+    },
+    "basic_salary": {
+      "label": "মূল বেতন",
+      "placeholder": "মূল বেতন নির্বাচন করুন",
+      "required_error_message": "মূল বেতন প্রয়োজন"
+    },
+    "branch": {
+      "label": "শাখা",
+      "placeholder": "শাখা নির্বাচন করুন",
+      "required_error_message": "শাখা প্রয়োজন"
+    },
+    "branch_en": {
+      "label": "শাখা (ইংরজি)",
+      "placeholder": "শাখা নির্বাচন করুন",
+      "required_error_message": "শাখা প্রয়োজন"
+    },
+    "branch_bn": {
+      "label": "শাখা (বাংলা)",
+      "placeholder": "শাখা নির্বাচন করুন",
+      "required_error_message": "শাখা প্রয়োজন"
+    },
+    "salary_increment_date": {
+      "label": "সর্বশেষ বেতনবৃদ্ধির তারিখ",
+      "placeholder": "সর্বশেষ বেতনবৃদ্ধির তারিখ নির্বাচন করুন",
+      "required_error_message": "সর্বশেষ বেতনবৃদ্ধির তারিখ প্রয়োজন"
+    },
+    "child_1_name": {
+      "label": "প্রথম সন্তানের নাম",
+      "placeholder": "প্রথম সন্তানের নাম লিখুন",
+      "required_error_message": "প্রথম সন্তানের নাম প্রয়োজন"
+    },
+    "child_1_birth_date": {
+      "label": "প্রথম সন্তানের জন্মতারিখ",
+      "placeholder": "প্রথম সন্তানের জন্মতারিখ নির্বাচন করুন",
+      "required_error_message": "প্রথম সন্তানের জন্মতারিখ প্রয়োজন"
+    },
+    "child_1_starting_date": {
+      "label": "শিক্ষাভাতার শুরুর তারিখ (প্রথম সন্তান)",
+      "placeholder": "শিক্ষাভাতার শুরুর তারিখ (প্রথম সন্তান) নির্বাচন করুন",
+      "required_error_message": "শিক্ষাভাতার শুরুর তারিখ (প্রথম সন্তান) প্রয়োজন"
+    },
+    "child_1_closing_date": {
+      "label": "শিক্ষাভাতার অবসানের তারিখ (প্রথম সন্তান)",
+      "placeholder": "শিক্ষাভাতার অবসানের তারিখ (প্রথম সন্তান) নির্বাচন করুন",
+      "required_error_message": "শিক্ষাভাতার অবসানের তারিখ (প্রথম সন্তান) প্রয়োজন"
+    },
+    "child_2_name": {
+      "label": "দ্বিতীয় সন্তানের নাম",
+      "placeholder": "দ্বিতীয় সন্তানের নাম লিখুন",
+      "required_error_message": "দ্বিতীয় সন্তানের নাম প্রয়োজন"
+    },
+    "child_2_birth_date": {
+      "label": "দ্বিতীয় সন্তানের জন্মতারিখ",
+      "placeholder": "দ্বিতীয় সন্তানের জন্মতারিখ নির্বাচন করুন",
+      "required_error_message": "দ্বিতীয় সন্তানের জন্মতারিখ প্রয়োজন"
+    },
+    "child_2_starting_date": {
+      "label": "শিক্ষাভাতার শুরুর তারিখ (দ্বিতীয় সন্তান)",
+      "placeholder": "শিক্ষাভাতার শুরুর তারিখ (দ্বিতীয় সন্তান) নির্বাচন করুন",
+      "required_error_message": "শিক্ষাভাতার শুরুর তারিখ (দ্বিতীয় সন্তান) প্রয়োজন"
+    },
+    "child_2_closing_date": {
+      "label": "শিক্ষাভাতার অবসানের তারিখ (দ্বিতীয় সন্তান)",
+      "placeholder": "শিক্ষাভাতার অবসানের তারিখ (দ্বিতীয় সন্তান) নির্বাচন করুন",
+      "required_error_message": "শিক্ষাভাতার অবসানের তারিখ (দ্বিতীয় সন্তান) প্রয়োজন"
+    },
+    "beneficiary": {
+      "label": "কল্যাণ তহবিল",
+      "placeholder": "কল্যাণ তহবিলের অবস্থা নির্বাচন করুন",
+      "required_error_message": "কল্যাণ তহবিলের অবস্থা প্রয়োজন"
+    },
+    "group_insurance": {
+      "label": "গ্রুপ বীমা",
+      "placeholder": "গ্রুপ বীমার অবস্থা নির্বাচন করুন",
+      "required_error_message": "গ্রুপ বীমার অবস্থা প্রয়োজন"
+    },
+    "health_insurance": {
+      "label": "স্বাস্থ্য বীমা",
+      "placeholder": "স্বাস্থ্য বীমার অবস্থা নির্বাচন করুন",
+      "required_error_message": "স্বাস্থ্য বীমার অবস্থা প্রয়োজন"
+    },
+    "general_provident_fund": {
+      "label": "সাধারণ প্রভিডেন্ট ফান্ড",
+      "placeholder": "সাধারণ প্রভিডেন্ট ফান্ডের অবস্থা নির্বাচন করুন",
+      "required_error_message": "সাধারণ প্রভিডেন্ট ফান্ডের অবস্থা প্রয়োজন"
+    },
+    "gas": {
+      "label": "গ্যাস",
+      "placeholder": "গ্যাসের অবস্থা নির্বাচন করুন",
+      "required_error_message": "গ্যাসের অবস্থা প্রয়োজন"
+    },
+    "burner": {
+      "label": "বার্নারের সংখ্যা",
+      "placeholder": "বার্নারের সংখ্যা নির্বাচন করুন",
+      "required_error_message": "বার্নারের সংখ্যা প্রয়োজন"
+    },
+    "water": {
+      "label": "পানি",
+      "placeholder": "পানির অবস্থা নির্বাচন করুন",
+      "required_error_message": "পানির অবস্থা প্রয়োজন"
+    },
+    "internet": {
+      "label": "ইন্টারনেট",
+      "placeholder": "ইন্টারনেটের অবস্থা নির্বাচন করুন",
+      "required_error_message": "ইন্টারনেটের অবস্থা প্রয়োজন"
+    },
+    "transportation_allowance": {
+      "label": "পরিবহন ভাতা",
+      "placeholder": "পরিবহন ভাতার অবস্থা নির্বাচন করুন",
+      "required_error_message": "পরিবহন ভাতার অবস্থা প্রয়োজন"
+    },
+    "washing_allowance": {
+      "label": "ধোলাই ভাতা",
+      "placeholder": "ধোলাই ভাতার অবস্থা নির্বাচন করুন",
+      "required_error_message": "ধোলাই ভাতার অবস্থা প্রয়োজন"
+    },
+    "lunch_facility": {
+      "label": "লাঞ্চ সুবিধা ভাতা",
+      "placeholder": "লাঞ্চ সুবিধা ভাতার অবস্থা নির্বাচন করুন",
+      "required_error_message": "লাঞ্চ সুবিধা ভাতার অবস্থা প্রয়োজন"
+    },
+    "tiffin_facility": {
+      "label": "টিফিন সুবিধা ভাতা",
+      "placeholder": "টিফিন সুবিধা ভাতার অবস্থা নির্বাচন করুন",
+      "required_error_message": "টিফিন সুবিধা ভাতার অবস্থা প্রয়োজন"
+    },
+    "gpf_type": {
+      "label": "জিপিএফের ধরণ",
+      "placeholder": "জিপিএফের ধরণ নির্বাচন করুন",
+      "required_error_message": "জিপিএফের ধরণ প্রয়োজন"
+    },
+    "gpf_rate": {
+      "label": "জিপিএফের হার",
+      "placeholder": "জিপিএফের হার লিখুন",
+      "required_error_message": "জিপিএফের হার প্রয়োজন"
+    },
+    "gpf_amount": {
+      "label": "জিপিএফের পরিমাণ",
+      "placeholder": "জিপিএফের পরিমাণ লিখুন",
+      "required_error_message": "জিপিএফের পরিমাণ প্রয়োজন"
+    },
+    "substandard_amount": {
+      "label": "সাব-স্ট্যান্ডার্ডের পরিমাণ",
+      "placeholder": "সাব-স্ট্যান্ডার্ডের পরিমাণ লিখুন",
+      "required_error_message": "সাব-স্ট্যান্ডার্ডের পরিমাণ প্রয়োজন"
+    },
+    "house_is_allotted": {
+      "label": "বাড়ি বরাদ্দ",
+      "placeholder": "বাড়ি বরাদ্দের অবস্থা নির্বাচন করুন",
+      "required_error_message": "বাড়ি বরাদ্দের অবস্থা প্রয়োজন"
+    },
     "view": "বিস্তারিত দেখুন"
   }
 }

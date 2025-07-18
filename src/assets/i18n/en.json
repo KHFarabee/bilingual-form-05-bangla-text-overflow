@@ -14,6 +14,386 @@
         "spouse": "Spouse"
       }
     },
+    "employee": {
+      "label": "Name",
+      "placeholder": "Enter name",
+      "required_error_message": "Name is required"
+    },
+    "employee_en": {
+      "label": "Name (English)",
+      "placeholder": "Enter name in English",
+      "required_error_message": "Name is required"
+    },
+    "employee_bn": {
+      "label": "Name (Bangla)",
+      "placeholder": "Enter name in Bangla",
+      "required_error_message": "Name is required"
+    },
+    "mobile_number": {
+      "label": "Mobile Number",
+      "placeholder": "Enter Mobile Number",
+      "required_error_message": "Mobile Number is Required"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter Email",
+      "required_error_message": "Email is Required"
+    },
+    "father_name": {
+      "label": "Father's Name",
+      "placeholder": "Enter Father's Name",
+      "required_error_message": "Father's Name is Required"
+    },
+    "mother_name": {
+      "label": "Mother's Name",
+      "placeholder": "Enter Mother's Name",
+      "required_error_message": "Mother's Name is Required"
+    },
+    "spouse_name": {
+      "label": "Spouse's Name",
+      "placeholder": "Enter Spouse's Name",
+      "required_error_message": "Spouse's Name is Required"
+    },
+    "birth_date": {
+      "label": "Birth Date",
+      "placeholder": "Select Birth Date",
+      "required_error_message": "Birth Date is Required"
+    },
+    "joining_date": {
+      "label": "Joining Date",
+      "placeholder": "Select Joining Date",
+      "required_error_message": "Joining Date is Required"
+    },
+    "closing_date": {
+      "label": "Closing Date",
+      "placeholder": "Select Closing Date",
+      "required_error_message": "Closing Date is Required"
+    },
+    "nid_no": {
+      "label": "NID No",
+      "placeholder": "Enter NID No",
+      "required_error_message": "NID No is Required"
+    },
+    "religion": {
+      "label": "Religion",
+      "placeholder": "Select a Religion",
+      "required_error_message": "Religion is Required"
+    },
+    "gender": {
+      "label": "Gender",
+      "placeholder": "Select a Gender",
+      "required_error_message": "Gender is Required"
+    },
+    "blood_group": {
+      "label": "Blood Group",
+      "placeholder": "Select a Blood Group",
+      "required_error_message": "Blood Group is Required"
+    },
+    "present_address": {
+      "label": "Present Address",
+      "placeholder": "Enter Present Address",
+      "required_error_message": "Present Address is Required"
+    },
+    "permanent_address": {
+      "label": "Permanent Address",
+      "placeholder": "Enter Permanent Address",
+      "required_error_message": "Permanent Address is Required"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Select a Status",
+      "required_error_message": "Status is Required"
+    },
+    "payment_type": {
+      "label": "Payment Type",
+      "placeholder": "Select a Payment Type",
+      "required_error_message": "Payment Type is Required"
+    },
+    "bank": {
+      "label": "Bank",
+      "placeholder": "Select a bank",
+      "required_error_message": "Bank is required"
+    },
+    "bank_en": {
+      "label": "Bank (English)",
+      "placeholder": "Select a bank",
+      "required_error_message": "Bank is required"
+    },
+    "bank_bn": {
+      "label": "Bank (Bangla)",
+      "placeholder": "Select a bank",
+      "required_error_message": "Bank is required"
+    },
+    "bank_branch": {
+      "label": "Bank Branch",
+      "placeholder": "Select a Bank Branch",
+      "required_error_message": "Bank Branch is required"
+    },
+    "bank_branch_en": {
+      "label": "Bank Branch (English)",
+      "placeholder": "Select a Bank Branch",
+      "required_error_message": "Bank Branch is required"
+    },
+    "bank_branch_bn": {
+      "label": "Bank Branch (Bangla)",
+      "placeholder": "Select a Bank Branch",
+      "required_error_message": "Bank Branch is required"
+    },
+    "account_title": {
+      "label": "Account title",
+      "placeholder": "Enter account title",
+      "required_error_message": "Account title is required"
+    },
+    "account_no": {
+      "label": "Account no",
+      "placeholder": "Enter account no",
+      "required_error_message": "Account no is required"
+    },
+    "category": {
+      "label": "Category",
+      "placeholder": "Select a Category",
+      "required_error_message": "Category is required"
+    },
+    "category_en": {
+      "label": "Category (English)",
+      "placeholder": "Select a Category",
+      "required_error_message": "Category is required"
+    },
+    "category_bn": {
+      "label": "Category (Bangla)",
+      "placeholder": "Select a Category",
+      "required_error_message": "Category is required"
+    },
+    "designation": {
+      "label": "Designation",
+      "placeholder": "Select a Designation",
+      "required_error_message": "Designation is required"
+    },
+    "designation_en": {
+      "label": "Designation (English)",
+      "placeholder": "Select a Designation",
+      "required_error_message": "Designation is required"
+    },
+    "designation_bn": {
+      "label": "Designation (Bangla)",
+      "placeholder": "Select a Designation",
+      "required_error_message": "Designation is required"
+    },
+    "department": {
+      "label": "Department",
+      "placeholder": "Select a Department",
+      "required_error_message": "Department is required"
+    },
+    "department_en": {
+      "label": "Department (English)",
+      "placeholder": "Select a Department",
+      "required_error_message": "Department is required"
+    },
+    "department_bn": {
+      "label": "Department (Bangla)",
+      "placeholder": "Select a Department",
+      "required_error_message": "Department is required"
+    },
+    "section": {
+      "label": "Section",
+      "placeholder": "Select a Section",
+      "required_error_message": "Section is required"
+    },
+    "section_en": {
+      "label": "Section (English)",
+      "placeholder": "Select a Section",
+      "required_error_message": "Section is required"
+    },
+    "section_bn": {
+      "label": "Section (Bangla)",
+      "placeholder": "Select a Section",
+      "required_error_message": "Section is required"
+    },
+    "grade": {
+      "label": "Grade",
+      "placeholder": "Select a Grade",
+      "required_error_message": "Grade is required"
+    },
+    "grade_en": {
+      "label": "Section (English)",
+      "placeholder": "Select a Section",
+      "required_error_message": "Section is required"
+    },
+    "grade_bn": {
+      "label": "Section (Bangla)",
+      "placeholder": "Select a Section",
+      "required_error_message": "Section is required"
+    },
+    "payscale_year": {
+      "label": "Payscale Year",
+      "placeholder": "Select a Payscale Year",
+      "required_error_message": "Payscale Year is required"
+    },
+    "payscale_year_en": {
+      "label": "Payscale Year (English)",
+      "placeholder": "Select a Payscale Year",
+      "required_error_message": "Payscale Year is required"
+    },
+    "payscale_year_bn": {
+      "label": "Payscale Year (Bangla)",
+      "placeholder": "Select a Payscale Year",
+      "required_error_message": "Payscale Year is required"
+    },
+    "payscale_range": {
+      "label": "Payscale Range",
+      "placeholder": "Select a Payscale Range",
+      "required_error_message": "Payscale Range is required"
+    },
+    "basic_salary": {
+      "label": "Basic Salary",
+      "placeholder": "Select a Basic Salary",
+      "required_error_message": "Basic Salary is required"
+    },
+    "branch": {
+      "label": "Branch",
+      "placeholder": "Select a Branch",
+      "required_error_message": "Branch is required"
+    },
+    "branch_en": {
+      "label": "Branch (English)",
+      "placeholder": "Select a Branch",
+      "required_error_message": "Branch is required"
+    },
+    "branch_bn": {
+      "label": "Branch (Bangla)",
+      "placeholder": "Select a Branch",
+      "required_error_message": "Branch is required"
+    },
+    "salary_increment_date": {
+      "label": "Last Salary Increment Date",
+      "placeholder": "Select the Last Salary Increment Date",
+      "required_error_message": "The Salary Increment Date is required"
+    },
+    "child_1_name": {
+      "label": "1st Child's Name",
+      "placeholder": "Enter 1st Child's Name",
+      "required_error_message": "1st Child's Name is required"
+    },
+    "child_1_birth_date": {
+      "label": "1st Child's Date of Birth",
+      "placeholder": "Select a 1st Child's Date of Birth",
+      "required_error_message": "1st Child's Date of Birth is required"
+    },
+    "child_1_starting_date": {
+      "label": "Starting Date of Education Allowance (1st Child)",
+      "placeholder": "Select a Starting Date of Education Allowance (1st Child)",
+      "required_error_message": "Starting Date of Education Allowance (1st Child) is required"
+    },
+    "child_1_closing_date": {
+      "label": "Closing Date of Education Allowance (1st Child)",
+      "placeholder": "Select a Closing Date of Education Allowance (1st Child)",
+      "required_error_message": "Closing Date of Education Allowance (1st Child) is required"
+    },
+    "child_2_name": {
+      "label": "2nd Child's Name",
+      "placeholder": "Enter 2nd Child's Name",
+      "required_error_message": "2nd Child's Name is required"
+    },
+    "child_2_birth_date": {
+      "label": "2nd Child's Date of Birth",
+      "placeholder": "Select a 2nd Child's Date of Birth",
+      "required_error_message": "2nd Child's Date of Birth is required"
+    },
+    "child_2_starting_date": {
+      "label": "Starting Date of Education Allowance (2nd Child)",
+      "placeholder": "Select a Starting Date of Education Allowance (2nd Child)",
+      "required_error_message": "Starting Date of Education Allowance (2nd Child) is required"
+    },
+    "child_2_closing_date": {
+      "label": "Closing Date of Education Allowance (2nd Child)",
+      "placeholder": "Select a Closing Date of Education Allowance (2nd Child)",
+      "required_error_message": "Closing Date of Education Allowance (2nd Child) is required"
+    },
+    "beneficiary": {
+      "label": "Beneficiary",
+      "placeholder": "Select a Beneficiary Status",
+      "required_error_message": "Beneficiary Status is required"
+    },
+    "group_insurance": {
+      "label": "Group Insurance",
+      "placeholder": "Select a Group Insurance Status",
+      "required_error_message": "Group Insurance Status is required"
+    },
+    "health_insurance": {
+      "label": "Health Insurance",
+      "placeholder": "Select a Health Insurance Status",
+      "required_error_message": "Health Insurance Status is required"
+    },
+    "general_provident_fund": {
+      "label": "General Provident Fund",
+      "placeholder": "Select a General Provident Fund Status",
+      "required_error_message": "General Provident Fund Status is required"
+    },
+    "gas": {
+      "label": "Gas",
+      "placeholder": "Select a Gas Status",
+      "required_error_message": "Gas Status is required"
+    },
+    "burner": {
+      "label": "Quantity of Burner",
+      "placeholder": "Select a Quantity of Burner",
+      "required_error_message": "Quantity of Burner is required"
+    },
+    "water": {
+      "label": "Water",
+      "placeholder": "Select a Water Status",
+      "required_error_message": "Water Status is required"
+    },
+    "internet": {
+      "label": "Internet",
+      "placeholder": "Select a Internet Status",
+      "required_error_message": "Internet Status is required"
+    },
+    "transportation_allowance": {
+      "label": "Transportation Allowance",
+      "placeholder": "Select a Transportation Allowance Status",
+      "required_error_message": "Transportation Allowance Status is required"
+    },
+    "washing_allowance": {
+      "label": "Washing Allowance",
+      "placeholder": "Select a Washing Allowance Status",
+      "required_error_message": "Washing Allowance Status is required"
+    },
+    "lunch_facility": {
+      "label": "Lunch Facility",
+      "placeholder": "Select a Lunch Facility Status",
+      "required_error_message": "Lunch Facility Status is required"
+    },
+    "tiffin_facility": {
+      "label": "Tiffin Facility",
+      "placeholder": "Select a Tiffin Facility Status",
+      "required_error_message": "Tiffin Facility Status is required"
+    },
+    "gpf_type": {
+      "label": "GPF Type",
+      "placeholder": "Select a GPF Type",
+      "required_error_message": "GPF Type is required"
+    },
+    "gpf_rate": {
+      "label": "GPF Rate",
+      "placeholder": "Enter GPF Rate",
+      "required_error_message": "GPF Rate is required"
+    },
+    "gpf_amount": {
+      "label": "GPF Amount",
+      "placeholder": "Enter GPF Amount",
+      "required_error_message": "GPF Amount is required"
+    },
+    "substandard_amount": {
+      "label": "Substandard Amount",
+      "placeholder": "Enter Substandard Amount",
+      "required_error_message": "Substandard Amount is required"
+    },
+    "house_is_allotted": {
+      "label": "House Allotment",
+      "placeholder": "Select House Allotment Status",
+      "required_error_message": "House Allotment Status is required"
+    },
     "view": "View Details"
   }
 }
