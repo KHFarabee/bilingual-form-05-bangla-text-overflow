@@ -19,6 +19,7 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FormOneComponent } from './form-one/form-one.component';
 import { FormListingComponent } from './form-listing/form-listing.component';
 import { FormTwoComponent } from './form-two/form-two.component';
+import { FormThreeComponent } from './form-three/form-three.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,7 +28,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 registerLocaleData(en);
 
 @NgModule({
-  declarations: [AppComponent, FormOneComponent, FormListingComponent, FormTwoComponent],
+  declarations: [AppComponent, FormOneComponent, FormListingComponent, FormTwoComponent, FormThreeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

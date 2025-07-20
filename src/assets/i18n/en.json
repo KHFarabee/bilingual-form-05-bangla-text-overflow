@@ -394,6 +394,10 @@
       "placeholder": "Select House Allotment Status",
       "required_error_message": "House Allotment Status is required"
     },
+    "user": {
+      "greeting": "Let come, "
+    },
+
     "view": "View Details"
   }
 }
